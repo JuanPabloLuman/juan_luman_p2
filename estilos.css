@@ -34,6 +34,7 @@ span{
 }
 .footer{
     text-align: center;
+    background-size:cover;
     font-size: 20px;
     background-color: rgb(0, 0, 0 , 0.699);
     color: #fff;
@@ -43,9 +44,84 @@ span{
     font-size: 40px;
     padding: 15px;
 }
+/* peces */
+
 .peces_caja{
+    background-color: black;
+}
+.header{
+    text-align: center;
+    color: #fff;
+    height: 80px;
+    background-color: black;
+    position: relative;
+    background-size: cover;
     
 }
+header h2{
+    font-size: 50px;
+}
+.header span{
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-home {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.header button:hover{
+    background-color: aqua;
+    
+}
+.info1{
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.img{
+    transition: all 0.7s;
+    filter: grayscale(100%);
+}
+.img:hover{
+    filter: sepia(0%);
+    transform: scale(1.09);
+}
+.img1{
+    background: url(/Multimedia/pez_01.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.img2{
+    background: url(/Multimedia/pez_03.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+   
+}
+.footer_peces{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0 , 0.699);
+    color: #fff;
+    height: 100px;
+}
+
 
 
 
