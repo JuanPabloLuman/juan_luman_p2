@@ -80,6 +80,7 @@ a{
 }
 .info1{
     padding: 20px;
+    color: #fff;
     background-color: blueviolet;
     border-radius: 10px;
     margin-top: 15px;
@@ -120,6 +121,12 @@ a{
     background-color: rgb(0, 0, 0 , 0.699);
     color: #fff;
     height: 100px;
+}
+/* sucursales */
+.mapa{
+   
+    padding:5px;
+    border: 2px solid grey;
 }
 
 
